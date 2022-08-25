@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+.inline-block{
+    display: inline-block;
+}
+body{
+    background: rgb(232, 232, 232);
+}
+.dec-none{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* colors */
+.white-text{
+    color: white;
+}
+.white-bg{
+    background: white;
+}
+.dark_orange-text{
+    color: #D87D4A;
+}
+.dark_orange-bg{
+    background: #D87D4A;
+    border-radius: 8px;
+}
+.to_dark-text{
+    color: #101010;
+}
+.to_dark-bg{
+    background: #101010;
+}
+.gray-text{
+    color: #F1F1F1;
+    font: 400; 
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+.gray-bg{
+    background: #F1F1F1;
+
+}
+.ligt_orange-text{
+    color: #fbaf85;
+}
+.light_orange-bg{
+    background: #fbaf85;
+}
+/* colors */
+
+
+/* nav */
+nav{
+    padding: 35px 165px 0;
+    position: fixed;
+    margin-top: 100px;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background-color: #141414;
+}
+.nav-center{
+    border-bottom: 1px solid white;
+    padding-bottom: 35px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.ml-297{
+    margin-left: 257px;
+}
+.ml-34{
+    margin-left: 34px;
+}
+.ml-340{
+    margin-left: 380px;
+    cursor: pointer;
+}
+.nav-links:hover {
+    color: #D87D4A;
+}
+/* nav */
+
+
+
+/* header */
+header{
+    background-color:#141414;   
+    padding: 270px 165px 0 ;
+    display: flex !important;
+    justify-content: space-between;    
+}
+.header_white-text{
+    color: white;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 24px 0;
+}
+
+.right-side-of-header{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: -200px;
+
+}
+.left-side-of-header{
+    display: inline-block;
+    margin-top: 0px;
+}
+.dark-orange_button{
+    background: #D87D4A ;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 15px 32px;
+    
+}
+.dark-orange_button:hover{
+    background: #FBAF85;
+}
+/* header */
+
+
+/* main */
+/* section1 */
+.main{
+    background: #fff;
+    padding: 270px 165px 0 ;
+}
+.link-to-Head_Phone{
+    background: #F2F2F2;
+    display: inline-block;
+    border-radius: 8px;
+    width: 350px;
+    height: 50px;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+.link-to-Speakers{
+    background: #F2F2F2;
+    display: inline-block;
+    border-radius: 8px;
+    width: 350px;
+    height: 50px;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
+.link-to-Ear_Phones{
+    background: #F2F2F2;
+    display: inline-block;
+    border-radius: 8px;
+    width: 350px;
+    height: 50px;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
+
+.Head_Phone-img{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 110px;
+}
+.speakers-img{
+    position: absolute;
+    margin-top: -82px;
+    margin-left: 100px;
+}
+.earphones-img{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 120px;
+    height: 180px;
+}
+.gray-text-for-link{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+    font-size: 13px;
+}
+.gray-text-for-link:hover   {
+    color: #D87D4A;
+}
+/* section1 */
+
+
+/* section2 */
+.section-2{
+    background: #fff;
+    padding: 170px 30px 0 ;
+}
+.into-section-2I-I1I{
+    padding: 100px 165px 0 ;
+}
+.right-side-of-section-2{
+    display: inline-block;
+    position: absolute;
+    margin: 50px 150px;
+}
+.left-side-of-section-2{
+    display: inline-block;
+}
+.black-button{
+    background: #000;
+    padding: 15px 32px;
+}
+.black-button:hover{
+    background: #4C4C4C;
+}
+
+.into-section-2-I2I{
+    margin-top: 48px;
+}
+.left-side-I2I{
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 100px;
+}
+.button-with-out-bg{
+    color: black;
+    border: 1px solid black;
+    padding: 15px 31px;
+    font-weight: 700;
+}
+.button-with-out-bg:hover{
+    background: #000;
+    color: white;
+}
+
+
+.into-section-2-I3I{
+    margin-top: 48px;
+}
+.right-side-I3I{
+    background: #F1F1F1;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 101px 200px 101px 101px;
+    margin-top: 0px;
+    margin-left: 50px;
+    position: absolute;
+}
+/* section-2 */
+
+
+/* last-section */
+
+.last-section{
+    margin-left: 30px;
+    display: inline-block;
+    padding-bottom: 200px;
+
+}
+.h1-last-section{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.last-section-img{
+    display: inline-block;
+    /* height: 400px;
+    width: 500px; */
+    border-radius: 8px;
+    margin-left: 125px;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+.left-last{
+    display: inline-block;
+    margin-top: 350px;
+    position: absolute;
+}
+/* last-section */
+
+/* footer */
+.footer{
+    background-color: #141414;
+    padding: 48px 170px ;
+    padding-top: 75px;
+}
+.left-side-of-footer{
+    color: gray;
+    display: inline-block;
+}
+.footer-links:hover{
+    color: #D87D4A;
+}
+.right-side-of-footer{
+    position: absolute;
+    display: inline-block;
+}
+.footer-icon{
+    color: white;
+    margin-left: 5px;
+}
+.footer-icon:hover{
+    color: #D87D4A;
+    cursor: pointer;
+}
+.div-with-icons{
+    margin-top: 105px;
+    margin-left: 560px;
+}
+/* footer */
+
+/* HEADPHONES */
+.HEADPHONES{
+    margin-left: 460px;
+    margin-top: -100px;
+}
+
+.first-head-phones{
+    margin-top: -150px;
+}
+.dark_orange-text-new-product{
+    color: #D87D4A;
+    font: 400; 
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+.right-side-HeadPhones{
+    margin-left: 125px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.second-head-phones{
+    margin-top: 160px;
+    margin-bottom: 320px;
+}
+.right-img{
+    margin-left: 650px;
+}
+.left-side-Head-Phones{
+    position: absolute;
+    margin-top: 160px;
+}
+
+.input-number{
+    padding-top: 19px;
+    padding-bottom: 15px;
+    width: 60px;
+    margin-right: 20px;
+    padding-left: 40px;
+    background: #F1F1F1;
+    outline: none;
+    border: none;
+}
+
+.section-links-head-phones {
+    margin-top: 200px;
+}
+
+
+
+
+
+.gray-text2{
+    color: gray;
+    margin-top: 79px;
+    margin-bottom: 56px;
+}
+.gray-text3{
+    color: gray;
+    display: inline-block;
+    margin-left: 21px;
+    margin-bottom: 10px;
+}
+.left-side{
+    display: inline-block;
+    margin-top: 160px;
+}
+.right-side{
+    display: inline-block;
+    margin-left: 125px;
+}
+
+.margin-top{
+    margin-top: 200px;
+}
+
+.section-with-images{
+    padding-bottom: 100px;
+}
+
+
+.center{
+    text-align: center;
+    }
+.mb-40{
+    margin-bottom: 40px;
+}
+.seek-element{
+    display: none;
+}
+.invisible{
+    display: none;
+    position: absolute;
+}
+.into-menu {
+    display: none;
+    
+}
+
+
+
+
+/* resposive */
+@media (max-width:768px){
+    .hide-element{
+        display: none !important;
+    }
+    .ml{
+        margin-left: -170px !important;
+    }
+    .into-menu {
+        }
+    .menu{
+        margin-left: 10px !important;
+    }
+
+    .into-menu:checked + .invisible{
+        display: block;
+        margin-top: 10px;
+        margin-left:-70px;
+        background: #fff;
+        padding-top: 100px;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    @keyframes slidein {
+        from {
+            margin-left: 0px;
+        }
+
+        to{
+            margin-top: 100px;
+            margin-left:100px;
+        }
+    }
+    .HEADPHONES{
+        margin-left: 190px;
+        margin-top: -100px;
+    }
+    .ml-340{
+        margin-left: 700px;
+    }
+    .nav-center{
+        width: 85%;
+    }
+    nav{
+        padding: 35px 65px 0;
+        width: 800px !important;
+    }
+    .container{
+        margin: 0;
+    }
+    .left-side-of-header{
+        position: absolute;
+        margin-left: 105px;
+        text-align: center;
+    }   
+    
+    header{
+        padding-right: 0px;
+        width: 800px !important;
+    }
+    
+    .seek-element{
+        display: inline;
+        margin-left: -20%;
+    }
+
+
+    .section-links{
+        padding: 0;
+        margin-left: -166.5px;
+    }
+    .into-section-2-I1I{
+
+        height: 900px;
+        margin-left: -20%;
+        text-align: center !important;
+        width: 800px !important;
+    }
+    .left-side-of-section-2{
+        height: 330px;
+        margin-top: 56px;
+           
+    }
+    .right-side-of-section-2{
+        display: block;
+        margin-left: 300px;
+    }
+
+
+
+    .into-section-2-I2I{
+        text-align: center !important;
+    }
+    .left-side-I2I{
+        margin-top: -300px;
+        margin-left: -50px;
+    }
+
+    .into-section-2-I3I{
+        margin-left: -360px;
+        
+    }
+    .right-side-I3I{
+        padding-top: 10px;
+        padding: 0;
+        padding-top: 11px;
+        padding-left: 11px;
+        width: 400px;
+        height: 260px;
+    }
+    .h2-last-section{
+        font-size: 50px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .h1-last-section{
+        font-size: 80px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .last-section-img{
+        display: inline-block;
+        /* height: 400px;
+        width: 500px; */
+        border-radius: 8px;
+        margin-left: 125px;
+        margin-top: 200px;
+        margin-left: 600px;
+    }
+    .last-section-img-responsive{
+        margin-left: -80px;
+        margin-top: 100px;
+        margin-bottom: 450px;
+    }
+    .left-last{
+        text-align: center;
+        margin-top: 650px;
+        width:  873px;
+        margin-left: -950px;
+        position: absolute;
+    }
+    .last-section{
+        margin-left: -200px;
+    }
+    .main{
+        width: 1000px;
+    }
+    .footer{
+        margin-left: -100px;
+
+    }
+    .right-side-of-footer{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -810px;
+    }
+    .div-with-icons{
+        margin-top: 160px;
+        margin-left: 700px;
+    }
+    .footer-logo{
+        margin-bottom: 80px !important;
+    }
+    .foot-footer{
+        width: 800px !important;
+    }
+    main{
+        width: 705px !important;
+    }
+
+    .head-header{
+        width: 1170px;
+    }
+    .foot-footer{
+        width: 1090px;
+    }
+    .img-center{
+        margin-bottom: 550px;
+    }
+    .main{
+        text-align: center;
+    }
+    .left-side-Head-Phones{
+        margin-top: 400px;
+        margin-left: -150px;
+    }
+    .right-side-HeadPhones{
+        margin-left: -600px;
+        margin-top: 400px;
+    }
+    .section-links{
+        margin-left: -170px;
+    }
+    .link-to-Head_Phone{
+        width: 250px;
+        
+    }
+    .link-to-Speakers{
+        width: 250px;
+    }
+    .link-to-Ear_Phones{
+        width: 250px;
+    }
+    .Head_Phone-img{
+        margin-left: 70px;
+    }
+    .speakers-img{
+        margin-left: 70px;
+    }
+    .earphones-img{
+        margin-left: 70px;
+    }
+    .audophile{
+        margin-left: 20px;
+    }
+    .menu{
+        position: absolute;
+        margin-left: -170px;
+    }
+}
+
+@media (max-width:375px){
+    .hide-elemet-mobile{
+        display: none !important;
+    }
+    .w-100{
+        width: 500%;
+        margin-left: -510px;
+    }
+    .left-side-of-header{
+        margin-top: 200px;
+        margin-left: 80px;
+    }
+    
+    .link-to-Head_Phone{
+        width: 700px;
+        
+    }
+    .link-to-Speakers{
+        width: 700px;
+        margin-top: 100px;
+    }
+    .link-to-Ear_Phones{
+        width: 700px;
+        margin-top: 100px;
+    }
+    .Head_Phone-img{
+        margin-left: 300px;
+        margin-top: -80px;
+    }
+    .speakers-img{
+        display: block;
+        margin-left: 360px;
+        margin-top: 20px;
+    }
+    .earphones-img{
+        display: block;
+        margin-left: 360px;
+        margin-top: 40px;
+    }
+    .seek-elemet-mobile{
+        display: block !important;
+    }
+    .ear-buds{
+        margin-left: 300px;
+        display: block;
+        height: 550px;
+        width: 700px !important;
+        margin-bottom: 500px;
+    }
+    .right-side-I3I{
+        margin-top: -400px;
+        width: 700px;
+        margin-left: -200px;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    
+}
